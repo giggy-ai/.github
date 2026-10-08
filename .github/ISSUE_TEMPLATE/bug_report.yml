@@ -1,0 +1,27 @@
+name: Bug report
+description: Report a reproducible problem with a Giggy SDK or integration
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem
+      description: Describe the issue without including secrets.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+
+  - type: input
+    id: version
+    attributes:
+      label: SDK or integration version

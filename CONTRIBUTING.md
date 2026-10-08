@@ -4,7 +4,7 @@ Thanks for contributing to Giggy's public developer tools.
 
 ## Scope
 
-Giggy's public GitHub repositories contain SDKs, runnable integration examples, and MCP documentation. The production API contract is maintained separately; do not introduce API behavior changes through these repositories.
+Giggy's public GitHub repositories contain SDKs, runnable integration examples, and MCP documentation. The production Giggy API contract is maintained separately. Do not introduce API behavior changes through these repositories.
 
 ## Contributions
 
@@ -16,4 +16,17 @@ Giggy's public GitHub repositories contain SDKs, runnable integration examples, 
 
 ## Validation
 
-For JavaScript SDK changes, run `npm ci` and `npm test`. For Python SDK changes, run `python -m unittest discover -s tests -v`. For integration examples, run the relevant repository checks. Real synthesis tests may require credentials and may consume credits.
+For JavaScript SDK changes:
+
+```bash
+npm ci
+npm test
+```
+
+For Python SDK changes:
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+For integration examples, run the relevant repository CI checks. Real synthesis tests may require credentials and may consume credits.
