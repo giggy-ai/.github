@@ -1,0 +1,15 @@
+{
+  "note": "Review-only proposals. Apply settings only after explicit owner approval.",
+  "repositories": {
+    ".github": {"description": "Giggy developer quickstarts, SDKs and community voice-agent integrations.", "topics": ["giggy", "voice-ai", "developer-tools"]},
+    "giggy-js": {"description": "Giggy JavaScript/TypeScript speech SDK: Batch, Fast and streaming examples for Node.js.", "topics": ["giggy", "typescript", "javascript", "sdk", "text-to-speech", "voice-agents"]},
+    "giggy-python": {"description": "Giggy Python speech SDK with source-install quickstart and tested streaming lifecycle.", "topics": ["giggy", "python", "sdk", "text-to-speech", "voice-agents"]},
+    "giggy-examples": {"description": "Giggy speech quickstarts for LiveKit, Pipecat, Vapi, OpenAI-compatible clients and MCP.", "topics": ["giggy", "tts", "livekit", "pipecat", "vapi", "openai-compatible", "voice-agents"]},
+    "pipecat-giggy": {"description": "Giggy-maintained streaming STT and TTS services for Pipecat voice pipelines.", "topics": ["giggy", "pipecat", "speech-to-text", "text-to-speech", "voice-agents"]},
+    "giggy-mcp": {"description": "Giggy remote MCP speech tools: client setup, voice discovery and durable audio generation.", "topics": ["giggy", "mcp", "model-context-protocol", "tts", "ai-agents"]},
+    "giggy-voice-agent": {"description": "Cloud voice-agent sandbox using Giggy speech and DeepSeek. Bring your own account and API keys.", "topics": ["giggy", "voice-agents", "tts", "speech-to-text", "deepseek", "demo"]},
+    "agents": {"description": "Giggy's contribution fork of LiveKit Agents; native Giggy TTS proposal under upstream review.", "topics": ["livekit", "tts", "giggy"]},
+    "pipecat-docs": {"description": "Giggy's contribution fork of Pipecat documentation; upstream docs live at docs.pipecat.ai.", "topics": ["pipecat", "documentation", "giggy"]}
+  },
+  "recommended_pins": ["giggy-voice-agent", "pipecat-giggy", "giggy-examples", "giggy-js", "giggy-python", "giggy-mcp"]
+}
