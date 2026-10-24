@@ -8,9 +8,9 @@ Transcribe recordings or submit short live PCM sessions through the SDKs. Genera
 
 | Build | Tool and quickstart | Current scope |
 | --- | --- | --- |
-| Python speech application | [giggy](https://github.com/giggy-ai/giggy-python) · [PyPI 0.1.3](https://pypi.org/project/giggy/0.1.3/) | Python 3.10+; TTS, recording STT and short live microphone sessions. |
+| Python speech application | [giggy](https://github.com/giggy-ai/giggy-python) · [PyPI 0.2.0](https://pypi.org/project/giggy/0.2.0/) | Python 3.10+; TTS, recording STT and short live microphone sessions. |
 | Node.js / TypeScript application | [@giggy-ai/sdk](https://github.com/giggy-ai/giggy-js) · [npm 0.1.1](https://www.npmjs.com/package/@giggy-ai/sdk) | Node.js 22+; TTS, recording STT and short live PCM sessions. Application owns capture. |
-| Pipecat voice agent | [pipecat-giggy](https://github.com/giggy-ai/pipecat-giggy) | Source 0.3.0.dev0 adds current WebSocket STT; PyPI 0.2.0 uses its earlier transport. Python 3.11+, Pipecat 1.12.0. |
+| Pipecat voice agent | [pipecat-giggy](https://github.com/giggy-ai/pipecat-giggy) | Released 0.3.0 provides current WebSocket STT and decode preparation; earlier 0.2.0 retains its previous transport. Python 3.11+, Pipecat 1.12.0. |
 | n8n voiceover workflow | [n8n-nodes-giggy](https://github.com/giggy-ai/n8n-nodes-giggy#example-workflow) | Published 0.1.0; self-hosted TTS/voice discovery. Cloud verification not established. |
 | Coding assistant | [Giggy MCP and agent skill](https://github.com/giggy-ai/giggy-mcp#install-for-ai-coding-agents) | Remote TTS/recorded STT tools; each user supplies a key. Plugin approvals are separate. |
 | LiveKit integration | [Native Giggy source PR](https://github.com/livekit/agents/pull/7659) | Native TTS and streaming WebSocket STT; open upstream PR, not a released plugin. |
@@ -18,7 +18,7 @@ Transcribe recordings or submit short live PCM sessions through the SDKs. Genera
 
 Start with the [developer tool guide](https://giggy.ai/docs/speech-api#api-developer-tools), [runnable examples](https://github.com/giggy-ai/giggy-examples), [API reference](https://giggy.ai/docs/api-reference), or [Voice AI Essentials course](https://giggy.ai/academy/voice-ai-essentials). Check [pricing](https://giggy.ai/pricing) before using paid modes. OpenAI compatibility here covers TTS, not STT.
 
-New integrations use `https://api.giggy.ai/v1`. Live STT defaults to `wss://api.giggy.ai/v1/audio/transcriptions`, with authenticated start, binary PCM and stop on one socket. Existing `https://giggy.ai/v1` clients remain supported. SDK WebSocket changes require their source checkout until a new package release; MCP remains at `https://giggy.ai/mcp`.
+New integrations use `https://api.giggy.ai/v1`. Live STT defaults to `wss://api.giggy.ai/v1/audio/transcriptions`, with authenticated start, binary PCM and stop on one socket. Existing `https://giggy.ai/v1` clients remain supported. SDK 0.2.0 releases provide the current WebSocket transport; MCP remains at `https://giggy.ai/mcp`.
 
 ## Start here
 
