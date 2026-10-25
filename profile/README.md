@@ -10,7 +10,7 @@ Transcribe recordings or submit short live PCM sessions through the SDKs. Genera
 | --- | --- | --- |
 | Python speech application | [giggy](https://github.com/giggy-ai/giggy-python) · [PyPI 0.2.0](https://pypi.org/project/giggy/0.2.0/) | Python 3.10+; TTS, recording STT and short live microphone sessions. |
 | Node.js / TypeScript application | [@giggy-ai/sdk](https://github.com/giggy-ai/giggy-js) · [npm 0.2.0](https://www.npmjs.com/package/@giggy-ai/sdk) | Node.js 22+; TTS, recording STT and short live PCM sessions. Application owns capture. |
-| Pipecat voice agent | [pipecat-giggy](https://github.com/giggy-ai/pipecat-giggy) | Released 0.3.0 provides current WebSocket STT and decode preparation; earlier 0.2.0 retains its previous transport. Python 3.11+, Pipecat 1.12.0. |
+| Pipecat voice agent | [pipecat-giggy](https://github.com/giggy-ai/pipecat-giggy) | Released 0.3.1 provides current WebSocket STT, decode preparation and readiness/buffered-input fixes; earlier 0.2.0 retains its previous transport. Python 3.11+, Pipecat 1.12.0. |
 | n8n voiceover workflow | [n8n-nodes-giggy](https://github.com/giggy-ai/n8n-nodes-giggy#example-workflow) | Published 0.1.1; self-hosted TTS/voice discovery. Cloud verification not established. |
 | Coding assistant | [Giggy MCP and agent skill](https://github.com/giggy-ai/giggy-mcp#install-for-ai-coding-agents) | Remote TTS/recorded STT tools; each user supplies a key. Plugin approvals are separate. |
 | LiveKit integration | [Native Giggy source PR](https://github.com/livekit/agents/pull/7659) | Native TTS and streaming WebSocket STT; open upstream PR, not a released plugin. |
